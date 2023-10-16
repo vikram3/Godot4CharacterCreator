@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://jm7vsoyhreup"]
+
+[ext_resource type="ArrayMesh" uid="uid://6rni5mhjwa5f" path="res://char_edit/meshs/eyes.mesh" id="1"]
+[ext_resource type="Material" path="res://char_edit/meshs/mats/eyes.tres" id="3"]
+
+[node name="eyes" type="MeshInstance3D"]
+mesh = ExtResource("1")
+surface_material_override/0 = ExtResource("3")

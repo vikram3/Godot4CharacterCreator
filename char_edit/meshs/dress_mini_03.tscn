@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://dw33pbwnxhd76"]
+
+[ext_resource type="ArrayMesh" uid="uid://cfcmbxr6b13hk" path="res://char_edit/meshs/dress_mini_03.mesh" id="1"]
+[ext_resource type="Texture2D" uid="uid://ba0dga6kkd4mi" path="res://char_edit/meshs/mats/dress_mini_03.PNG" id="1_foncm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w4ihs"]
+albedo_texture = ExtResource("1_foncm")
+
+[node name="dress_mini_03" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_w4ihs")
+mesh = ExtResource("1")

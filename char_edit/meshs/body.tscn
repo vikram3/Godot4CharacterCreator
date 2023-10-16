@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://dvl0v108vhw77"]
+
+[ext_resource type="Texture2D" uid="uid://buvi8b4x0j1lc" path="res://char_edit/meshs/mats/young_lightskinned_female_diffuse2.jpg" id="1_6ivkg"]
+[ext_resource type="ArrayMesh" uid="uid://dwwymcqp6g5p" path="res://char_edit/meshs/body.mesh" id="2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_db38r"]
+albedo_texture = ExtResource("1_6ivkg")
+
+[node name="body" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_db38r")
+mesh = ExtResource("2")

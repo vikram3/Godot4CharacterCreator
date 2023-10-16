@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://c55nsyqfnxkn4"]
+
+[ext_resource type="ArrayMesh" uid="uid://3ah4jo56d685" path="res://char_edit/meshs/male_jeans_01.mesh" id="1"]
+[ext_resource type="Texture2D" uid="uid://d2c1qaew4uk7k" path="res://char_edit/meshs/mats/male_jeans_shirt_01_diffuse.png" id="1_mxxhr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2o61w"]
+albedo_texture = ExtResource("1_mxxhr")
+
+[node name="male_jeans_01" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_2o61w")
+mesh = ExtResource("1")

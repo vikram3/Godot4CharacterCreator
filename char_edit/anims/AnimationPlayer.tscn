@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bifiyccudkp86"]
+
+[sub_resource type="Animation" id="12"]
+resource_name = "skelnewsexydance"
+length = 10.4167
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_mfp6v"]
+_data = {
+"skelnewsexydance": SubResource("12")
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer"]
+libraries = {
+"": SubResource("AnimationLibrary_mfp6v")
+}
